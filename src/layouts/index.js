@@ -5,7 +5,11 @@ import Helmet from 'react-helmet';
 import { Swipeable } from 'react-swipeable';
 import Transition from '../components/transition';
 import hljs from 'highlight.js';
-import 'highlight.js/styles/darcula.css';
+// import 'highlight.js/styles/darcula.css';
+// import 'highlight.js/styles/a11y-light.css';
+// import 'highlight.js/styles/atom-one-light.css';
+// import 'highlight.js/styles/codepen-embed.css';
+import 'highlight.js/styles/googlecode.css';
 import logo from '../resources/logo.png';
 
 import './index.css';
@@ -77,6 +81,12 @@ function TemplateWrapper(props) {
           href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
           rel="stylesheet"
         ></link>
+        
+        <link
+          href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css"
+          rel="stylesheet"
+        ></link>
+        
       </Helmet>
       <Swipeable onSwipedLeft={swipeLeft} onSwipedRight={swipeRight}>
         <Transition location={location}>

@@ -2,6 +2,5 @@
 
 ----
 
-# Introduction to WebApps
+# Bundling Web Applications
 
-#### WebApps in 2020
